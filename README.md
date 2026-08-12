@@ -25,6 +25,8 @@ Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook (Kaggle
 Audience: Data Analysts, Business Analysts, Recruiters
 
 ## 💼 Problem Statement
+The restaurant market in Bangalore is growing very fast but faces intense competition. New restaurant owners struggle to decide on the best location, food type (cuisine), and pricing, leading to high failure rates. 
+The goal of this project is to analyze Zomato restaurant data to find the key factors that make a restaurant successful (high ratings) or popular (high vote counts) in Bangalore. 
 ### Business Challenge
 Zomato aims to better understand customer preferences and restaurant performance by analyzing restaurant data across different cities. This project focuses on uncovering patterns that help improve customer experience and support data-driven business decisions.
 
