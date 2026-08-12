@@ -60,19 +60,27 @@ Zomato aims to better understand customer preferences and restaurant performance
 ### SQL Queries
 #### 📍 Category 1: Location & Market Share
 Q1 (Basic): Find the top 5 neighborhoods with the highest number of restaurants.
+
 Q2 (Intermediate): Calculate the percentage contribution of each neighborhood to the total number of restaurants in Bangalore.
+
 Q3 (Advanced): Use a window function (DENSE_RANK()) to rank the top 3 restaurants in each neighborhood based on their total votes. 
 #### 💰 Category 2: Price & Revenue Analysis
 Q4 (Basic): Find the average cost for two people for restaurants that offer online ordering versus those that do not.
+
 Q5 (Intermediate): Group restaurants into price segments ('Cheap', 'Moderate', 'Expensive') using a CASE statement, and find the average rating for each segment.
+
 Q6 (Advanced): Find the neighborhoods where the average cost for two people is higher than the overall average cost of Bangalore.
 #### 🍔 Category 3: Cuisine & Service Insights
 Q7 (Basic): Count how many restaurants offer both online delivery and table booking.
+
 Q8 (Intermediate): Since the cuisines column contains multiple values separated by commas, find the total number of restaurants that serve 'North Indian' or 'South Indian' using string matching (LIKE).
+
 Q9 (Advanced): Identify the "Hidden Gems" — find cuisines that have an average rating above 4.2 but are offered by fewer than 10 restaurants in the entire city. 
 #### 📈 Category 4: Rating & Customer Engagement
 Q10 (Basic): Find the top 10 most famous restaurants based on the highest number of user votes.
+
 Q11 (Intermediate): Find the difference between a restaurant's rating and the average rating of its specific neighborhood to see which restaurants are outperforming their locals.
+
 Q12 (Advanced): Write a complex query using a CTE to find the most successful restaurant type (e.g., Cafe, Quick Bites, Delivery) in terms of both high average ratings and a minimum of 500 votes.
 
 
