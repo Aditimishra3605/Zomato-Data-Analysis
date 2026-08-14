@@ -115,3 +115,77 @@ Q12 (Advanced): Write a complex query using a CTE to find the most successful re
 | menu_item                   | Menu items offered by the restaurant (if available).                     |
 | listed_in(type)             | Restaurant category on Zomato (e.g., Buffet, Cafes, Dine-out). |
 | listed_in(city)             | Zomato-listed locality or area where the restaurant is categorized.      |
+
+### SQL Analysis Summary
+##### 📍 Questions About Locations (Places)
+1. Which places in Bangalore have the highest number of restaurants?
+
+| location                   | total_restaurants  |
+| -------------------------- | -------------------|
+| BTM                        | 5056               | 
+| others                     | 4954               | 
+| HSR                        | 2494               | 
+| Koramangala 5th Block      | 2479               | 
+| JP Nagar                   | 2218               | 
+
+2. Which places have very few restaurants?
+
+| location                   | total_restaurants  |
+| -------------------------- | -------------------|
+| St. Marks Road             | 343                | 
+| Commercial Street          | 370                | 
+| Ejipura                    | 433                | 
+| Old Airport Road           | 437                | 
+| Domlur                     | 482                | 
+
+3. Where can we find the best-rated restaurants in the city?
+
+| location                   | average_rating     |
+| -------------------------- | -------------------|
+| Lavelle Road               | 4.12               | 
+| St. Marks Road             | 4.02               | 
+| Koramangala 5th Block      | 3.99               | 
+| Church Street              | 3.98               | 
+| Koramangala 4th Block      | 3.90               |
+
+##### 💰 Questions About Money and Cost
+4. How much money do two people usually spend on a meal?
+5. Do expensive restaurants get better ratings than cheap restaurants?
+
+| cost_range                 | average_rating     |
+| -------------------------- | -------------------|
+| Medium (400-1000)          | 3.67               | 
+| Cheap (Under 400)          | 3.56               | 
+| Expensive (Above 1000)     | 4.12               | 
+
+6. Which areas are the most expensive, and which areas are the cheapest?
+
+##### 🍔 Questions About Food (Cuisines)
+7. What are the most common types of food sold in Bangalore?
+8. What types of food do people love the most (highest ratings)?
+9. Which food types have high ratings but very little competition?
+
+##### 📱 Questions About Services
+10. Do restaurants with online delivery get better ratings?
+
+| online_order               | average_rating    |
+| -------------------------- | ------------------|
+| No                         | 3.63              | 
+| Yes                        | 3.71              | 
+
+11. Do restaurants with table booking get more customer votes?
+
+| book_table                 | average_votes     |
+| -------------------------- | ------------------|
+| No                         | 160.58            | 
+| Yes                        | 1146.46           | 
+
+12. Do more customer votes mean a higher rating for the restaurant?
+
+| vote_range                 | average_rating     |
+| -------------------------- | -------------------|
+| Low Votes (0-100)          | 3.52               | 
+| Medium Votes (100-1000)    | 3.89               | 
+| High Votes (Above 1000)    | 4.28               |
+
+
