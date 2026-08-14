@@ -38,26 +38,8 @@ Zomato aims to better understand customer preferences and restaurant performance
 5. Evaluate the impact of online delivery and table booking services.
 6. Generate actionable business insights for restaurant owners and food delivery platforms.
 
-### Analysis Questions Addressed
-#### Primary Analysis
-1. Which cities have the highest number of restaurants?
-2. What are the most popular cuisines offered by restaurants?
-3. How do restaurant ratings vary across cities?
-4. Does the average cost for two people affect customer ratings?
-5. Which restaurants have the highest number of votes?
-6. What percentage of restaurants offer online delivery?
-7. What percentage of restaurants provide table booking?
-8. Which cuisines receive the highest average ratings?
-9. How are restaurant prices distributed across different price ranges?
-10. Which cities have the highest-rated restaurants?
-#### Secondary Analysis
-1. Does online delivery improve restaurant ratings?
-2. Does table booking influence customer satisfaction?
-3. Which price category has the highest-rated restaurants?
-4. Which cuisines are both popular and highly rated?
-5. Are expensive restaurants always rated better?
 
-### SQL Queries
+### Analysis Questions Addressed Using SQl
 #### 📍 Category 1: Location & Market Share
 Q1 (Basic): Find the top 5 neighborhoods with the highest number of restaurants.
 
